@@ -1,0 +1,96 @@
+11:25:34.914 [Thread-4] WARN  o.a.j.c.TagProcessor - Found a <fragment> in the HotSpot log. The VM exited before the hotspot log was fully written. JIT information may have been lost.
+11:25:34.922 [Thread-4] ERROR o.a.j.p.AbstractLogParser - task_done not found in <task method="java/lang/String getChars (II[CI)V" level="3" bytes="62" count="896" stamp="0.820" compile_id="38" iicount="896">
+  <phase name="buildIR" stamp="0.820">
+    <type name="void" id="724"/>
+    <type name="int" id="722"/>
+    <klass name="[C" flags="1041" id="821"/>
+    <klass name="java/lang/String" flags="17" id="730"/>
+    <method bytes="62" name="getChars" flags="1" holder="730" arguments="722 722 821 722" id="832" iicount="896" return="724"/>
+    <parse method="832" stamp="0.820">
+      <bc code="183" bci="9"/>
+      <klass unloaded="1" name="java/lang/StringIndexOutOfBoundsException" id="834"/>
+      <method unloaded="1" name="&lt;init&gt;" holder="834" arguments="722" id="835" return="724"/>
+      <call method="835" instr="invokespecial"/>
+      <inline_fail reason="not inlineable"/>
+      <bc code="183" bci="27"/>
+      <call method="835" instr="invokespecial"/>
+      <inline_fail reason="not inlineable"/>
+      <bc code="183" bci="43"/>
+      <call method="835" instr="invokespecial"/>
+      <inline_fail reason="not inlineable"/>
+      <bc code="184" bci="58"/>
+      <klass name="java/lang/Object" flags="1" id="729"/>
+      <klass name="java/lang/System" flags="17" id="735"/>
+      <method compile_kind="c2n" level="0" bytes="0" name="arraycopy" flags="265" holder="735" arguments="729 722 729 722 722" id="836" compile_id="3" iicount="2944" return="724"/>
+      <call method="836" instr="invokestatic"/>
+      <inline_success reason="intrinsic"/>
+      <parse_done stamp="0.820"/>
+    </parse>
+    <phase name="optimize_blocks" stamp="0.820">
+      <phase_done name="optimize_blocks" stamp="0.820"/>
+    </phase>
+    <phase name="rangeCheckElimination" stamp="0.820">
+      <phase_done name="rangeCheckElimination" stamp="0.820"/>
+    </phase>
+    <phase name="optimize_null_checks" stamp="0.820">
+      <phase_done name="optimize_null_checks" stamp="0.820"/>
+    </phase>
+    <phase_done name="buildIR" stamp="0.820"/>
+  </phase>
+  <phase name="emit_lir" stamp="0.820">
+    <phase name="lirGeneration" stamp="0.820">
+      <phase_done name="lirGeneration" stamp="0.820"/>
+    </phase>
+    <phase name="linearScan" stamp="0.820">
+      <phase_done name="linearScan" stamp="0.820"/>
+    </phase>
+    <phase_done name="emit_lir" stamp="0.820"/>
+  </phase>
+  <phase name="codeemit" stamp="0.820">
+    <phase_done name="codeemit" stamp="0.820"/>
+  </phase>
+  <phase name="codeinstall" stamp="0.820">
+  </phase>
+</task>
+
+11:31:25.402 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 1
+11:31:25.402 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 2
+11:31:25.402 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 5
+11:31:25.402 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 6
+11:31:25.402 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 7
+11:31:25.402 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 3
+11:31:25.402 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 4
+11:31:25.407 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 1
+11:31:25.407 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 1
+11:31:25.407 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 2
+11:31:25.407 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 2
+11:31:25.407 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 5
+11:31:25.407 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 5
+11:31:25.407 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 6
+11:31:25.407 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 6
+11:31:25.407 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 7
+11:31:25.408 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 7
+11:31:25.408 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 3
+11:31:25.408 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 3
+11:31:25.408 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 4
+11:31:25.408 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 4
+11:31:25.411 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 1
+11:31:25.411 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 1
+11:31:25.411 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 2
+11:31:25.411 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 2
+11:31:25.411 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 5
+11:31:25.412 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 5
+11:31:25.412 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 6
+11:31:25.412 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 6
+11:31:25.412 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 7
+11:31:25.412 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 7
+11:31:25.412 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 3
+11:31:25.412 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 3
+11:31:25.412 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 4
+11:31:25.412 [Thread-12] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 4
+11:31:32.559 [JavaFX Application Thread] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 4
+11:31:32.560 [JavaFX Application Thread] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 4
+11:31:40.475 [JavaFX Application Thread] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 7
+11:31:40.475 [JavaFX Application Thread] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 7
+11:31:40.531 [JavaFX Application Thread] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 7
+11:31:40.531 [JavaFX Application Thread] WARN  o.a.j.c.CompilationUtil - No Task found in Compilation 7
